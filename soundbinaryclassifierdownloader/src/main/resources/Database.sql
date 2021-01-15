@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `organizations` (
+	`orgid` VARCHAR(255) NOT NULL PRIMARY KEY,
+	`email` VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS `training` (
+	`uuid` VARCHAR(255) NOT NULL PRIMARY KEY,
+	`orgid` VARCHAR(255) NOT NULL,
+	`sharelink` VARCHAR(255) NOT NULL,
+	`download` BOOLEAN
+);
