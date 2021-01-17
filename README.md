@@ -26,10 +26,8 @@ POST /api/predict HTTP/1.1
 Host: 3.19.27.28:5002  
 Content-Type: application/json  
 \
-{  
-    "shareLink": "https://drive.google.com/file/d/1NB8vSE0E889QD0T2w96GWroQ7cHqxpkU/view?usp=sharing",  
-    "model": "cats_dogs",  
-    "email": "allenx123456@gmail.com"  
-}
+
 ### Response format
-10 or 20
+{  
+    "decision": 10,  
+}
