@@ -33,7 +33,6 @@ Content-Type: application/json
 }
 \
 or  
-\
 {  
     "decision": 20  
 }
