@@ -28,10 +28,8 @@ Content-Type: application/json
 \
 
 ### Response format
-{  
-    "decision": 10  
-}  
-or  
-{  
-    "decision": 20  
-}
+{ "decision": 10 }  
+\
+or
+\
+{ "decision": 20 }
