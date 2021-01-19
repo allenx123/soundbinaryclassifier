@@ -32,7 +32,7 @@ Content-Type: application/json
     "email": "allenx123456@gmail.com"  
 }  
 ### Response format
-{ "decision": 10 }  
+{ "decision": 10 }
 \
 or
 \
